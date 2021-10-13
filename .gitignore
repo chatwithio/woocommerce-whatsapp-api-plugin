@@ -1,0 +1,9 @@
+# Node Modules
+node_modules/
+
+# Grunt
+whats-api-notifications
+whats-api-notifications.zip
+
+# VS code API file.
+api.http

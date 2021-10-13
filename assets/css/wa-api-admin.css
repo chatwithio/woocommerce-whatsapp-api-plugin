@@ -1,0 +1,127 @@
+.tochatbe-wa-api-templates {}
+
+.tochatbe-wa-api-template {
+	background: #fff;
+	padding: 1rem 2rem;
+	border-radius: 0.6rem;
+	margin-bottom: 2rem;
+}
+
+.tochatbe-wa-api-template__status {
+	margin: 0;
+	margin-bottom: 1rem;
+	font-size: 14px;
+}
+
+.tochatbe-wa-api-template__status span {
+	background: #eceff1;
+	padding: 0.3rem 1rem;
+	border-radius: 0.3rem;
+}
+
+.tochatbe-wa-api-template__inputs {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tochatbe-wa-api-template__inputs-col1,
+.tochatbe-wa-api-template__inputs-col2 {
+	width: 31.33332%;
+}
+
+.tochatbe-wa-api-template__inputs-col1 {}
+.tochatbe-wa-api-template__inputs-col2 {}
+
+.tochatbe-wa-api-template__inputs p {
+	margin-bottom: 4px;
+}
+
+.tochatbe-wa-api-template__inputs input {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+.tochatbe-wa-api-template-placeholders {
+	width: 600px;
+	max-width: 100%;
+	margin-top: 10px;
+}
+
+.tochatbe-wa-api-template-placeholders th,
+.tochatbe-wa-api-template-placeholders tr {
+	text-align: left;
+}
+
+.tochatbe-wa-api-template-placeholders input {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+
+
+.tochatbe-wa-api-placeholder-popup-overlay {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+}
+
+.tochatbe-wa-api-placeholder-popup {
+	display: none;
+	width: 900px;
+	max-width: 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+	padding: 20px;
+	border-radius: 6px;
+}
+
+.tochatbe-wa-api-placeholder-popup-close {
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.tochatbe-wa-api-placeholder-table {
+	width: 100%;
+	margin-top: 30px;
+}
+.tochatbe-wa-api-placeholder-table th,
+.tochatbe-wa-api-placeholder-table td {
+	text-align: left;
+}
+
+#tochatbe-wa-api-form-response p {
+	padding: 10px;
+	background: #cfd8dc;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+/* Log page CSS */
+.tochatbe-wa-api-log-list {
+}
+
+.tochatbe-wa-api-log-item {
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.tochatbe-wa-api-log-timestamp {
+	font-weight: 500;
+}
